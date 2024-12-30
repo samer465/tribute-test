@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Nelson Mandela</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            background: #f3f9f9 ;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header h2 {
+            margin: 10px 0 0;
+            font-size: 1.5em;
+            font-weight: 300;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #555;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        p {
+            margin: 10px 0;
+            text-align: justify;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .gallery img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        .contact {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .contact input, .contact textarea, .contact button {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            background: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact button:hover {
+            background: #555;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+            padding: 10px 0;
+            background: #222;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tribute to Nelson Mandela</h1>
+        <h2>A Leader of Peace and Unity</h2>
+    </header>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="sam.jpg" alt="Nelson Mandela">
+        </div>
+
+        <h2>Biography</h2>
+        <p>Nelson Mandela, born on July 18, 1918, in Mvezo, South Africa, was a revolutionary anti-apartheid leader and the first democratically elected President of South Africa. Imprisoned for 27 years, he became a global symbol of resistance to oppression and a champion of peace and reconciliation.</p>
+
+        <h2>Achievements</h2>
+        <p>Mandela's achievements include leading South Africa to the end of apartheid, establishing a new democratic constitution, and promoting unity and forgiveness in a nation divided by racial tensions. He was awarded the Nobel Peace Prize in 1993 for his efforts to dismantle apartheid and foster racial harmony.</p>
+
+        <h2>Leadership</h2>
+        <p>Nelson Mandela's leadership style emphasized humility, collaboration, and perseverance. His ability to unite a divided nation through dialogue and mutual understanding remains a cornerstone of his legacy.</p>
+
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="sam2.jpg" alt="Nelson Mandela Image 1">
+            <img src="sam3.jpg" alt="Nelson Mandela Image 2">
+            <img src="sam4.jpg" alt="Nelson Mandela Image 3">
+        </div>
+
+        <h2>Legacy</h2>
+        <p>Nelson Mandela's legacy is celebrated worldwide for his unwavering commitment to justice, equality, and human rights. His life and work continue to inspire movements for freedom and dignity across the globe.</p>
+
+        <h2>Contact</h2>
+        <div class="contact">
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Created by Samir Idris</p>
+    </footer>
+</body>
+</html>
